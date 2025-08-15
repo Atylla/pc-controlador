@@ -1,0 +1,30 @@
+.titlebar {
+    -webkit-app-region: drag;
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    -webkit-app-region: no-drag;
+}
+
+.button {
+    background: none;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    color: red
+}
+
+#content {
+    margin: 0;
+}
